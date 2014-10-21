@@ -1,0 +1,73 @@
+html {
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+}
+
+body{
+	background-color: black;
+}
+
+.facts div{
+	display: none;
+}
+
+.facts div:first-child{
+	display: block;
+}
+
+.flag{
+	border: 1px solid #888;
+}
+
+@media (max-width: 1050px){
+	.facts div.fact2{
+		display: block;
+	}
+
+	body{
+		background-color: darkgreen;
+	}
+}
+
+@media (max-width: 900px){
+	.facts div.fact3{
+		display: block;
+	}
+	body{
+		background-color: darkblue;
+	}
+}
+
+@media (max-width: 750px){
+	/*SHOW FACT4*/
+	.facts div.fact4{
+		display: block;
+	}
+
+	body{
+		background-color: red;
+	}
+}
+
+@media (max-width: 600px){
+	.facts div.fact5{
+		display: block;
+	}
+
+	body{
+		background-color: purple;
+	}
+}
+
+@media (max-width: 450px){
+	.facts div.fact6{
+		display: block;
+	}
+
+	body{
+		background-color: darkgoldenrod;
+	}
+}
+    
